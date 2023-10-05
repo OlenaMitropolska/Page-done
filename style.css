@@ -8,7 +8,7 @@
 }
 .container {
 
-    background-color: rgb(192, 192, 228);
+    background-color: #91887b;
     font-family: 'Rajdhani', sans-serif;
     font-size: 300;
     display: flex;
@@ -21,16 +21,17 @@
 }
 .header {
     padding-top: 10px;
-    background-color: aquamarine;
     height: 10%;
 font-weight: bolder;
 display: flex;
 justify-content: space-around;
+color: white;
 }
 .menu {
     font-size: 2.5em;
     position: absolute;
     right: 20px;
+    color: white;
 }
 .radius {
 border-radius: 50px;
@@ -39,8 +40,49 @@ border-radius: 50px;
 .product {
     height: 620px;
     width: 95%;
-    background-color: bisque;
+    background-color: #aec6a5;
     border: 2px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product img {
+    width: 80%;
+    height: 40%;
+    border-radius: 30px;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.product h4 {
+color: white;
+}
+.product h2 {
+    font-size: 3em;
+    color: white;
+    font-stretch: expanded;
+    text-transform: uppercase;
+}
+.uppercase {
+    font-stretch: expanded;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-size: large;
+    font-weight: bolder;
+    color: white;
+}
+button {
+    background-color: #b1af96;
+    height: 50px;
+    width: 200px;
+    border: 1px solid white;
+    border-radius: 30px;
+
 }
 
 .information {
