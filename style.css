@@ -126,6 +126,13 @@ button {
     color: white;
 }
 
+.allmain {
+    height: 580px;
+    background-color: #91887b;
+    font-size: 10em;
+    color: white;
+}
+
 @media only screen and (min-width: 768px) {
 .product {
 flex-direction: row;
