@@ -18,6 +18,14 @@
     align-items: center;
 
 }
+.two {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
 .header {
     padding-top: 10px;
     height: 10%;
@@ -152,5 +160,20 @@ button {
 }
 
 @media only screen and (min-width: 992px) {
+.container {
+    flex-direction: column;
+    height: 100vh;
+}
+.two {
+    height: 100%;
+    flex-direction: row;
+   padding: 0 30px;
+}
+.product {
+    width: 50%;
+}
+.information {
+    width: 50%;
+}
 
 }
