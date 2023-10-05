@@ -116,5 +116,41 @@ button {
 .net {
     font-size: 1.5em;
     color: white;
+}
+
+@media only screen and (min-width: 768px) {
+.product {
+flex-direction: row;
+flex-wrap: wrap;
+padding: 30px;
+}
+.product img {
+    width: 80%;
+    height: 60%;
+    object-fit: cover;
+}
+.text, button {
+    padding: 0;
+    width: 50%;
+    font-size: 1.5em;
+}
+button {
+    width: 40%;
+    height: 100px;
+
+}
+.uppercase {
+    font-size: larger;
+}
+
+.information {
+    font-size: 1.5em;
+}
+.footer {
+    font-size: 1.5em;
+}
+}
+
+@media only screen and (min-width: 992px) {
 
 }
